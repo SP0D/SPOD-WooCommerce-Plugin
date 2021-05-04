@@ -1,0 +1,154 @@
+/**
+* vars */
+/**
+* fix missing height in wordpress backend divs
+*/
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000323}}
+#wpcontent, #wpbody, #wpbody-content { height: 100vH; }
+
+/**
+* fonts
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000331}}
+#wpcontent > * { font-family: 'Archivo', sans-serif; font-size: 14px; font-weight: 500; }
+
+/** wordpress
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000340}}
+#wpcontent { background-color: #F4F5F7; }
+
+/**
+* usefull items
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000347}}
+input, a { width: 100%; font-size: 14px; font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000352}}
+input.cta, a.cta { background-color: #1C64F2; color: #FFFFFF; border: 0; border-radius: 6px; padding: 10px 0; text-align: center; cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000361}}
+input.cta:hover, input.cta:disabled, a.cta:hover, a.cta:disabled { background-color: #3F83F8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000364}}
+input.cta:focus, a.cta:focus { outline: unset; box-shadow: 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000369}}
+input.cta.cancel, a.cta.cancel { background-color: transparent; color: #161E2E; border: 1px solid #D2D6DC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000373}}
+input.cta.cancel:hover, a.cta.cancel:hover { border-color: #F4F5F7; }
+
+/**
+* plugin */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000383}}
+.ng-box-wrapper { width: 100%; height: 100%; display: flex; justify-content: center; align-content: center; align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000391}}
+.ng-box-wrapper .box { display: flex; width: 400px; flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\0000396}}
+.ng-box-wrapper .box .box__logo { text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003100}}
+.ng-box-wrapper .box .box__headline { text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003102}}
+.ng-box-wrapper .box .box__headline h1 { font-size: 30px; color: #161E2E; font-weight: 700; margin: 20px 0 30px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003110}}
+.ng-box-wrapper .box .box__form { background-color: #FFFFFF; box-shadow: 0px 0px 3px 0px #D2D6DC; border-radius: 6px; border: 1px solid #D2D6DC; padding: 40px 45px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003118}}
+.ng-box-wrapper .box .box__form form label { font-size: 14px; font-weight: 500; margin: 0 0 5px 0; padding: 0; width: 100%; display: block; color: #161E2E; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003127}}
+.ng-box-wrapper .box .box__form form input { width: 100%; font-size: 14px; font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003132}}
+.ng-box-wrapper .box .box__form form input[type="text"] { border: 1px solid #D2D6DC; padding: 4px 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003135}}
+.ng-box-wrapper .box .box__form form input[type="text"]:focus { outline: unset; box-shadow: 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003139}}
+.ng-box-wrapper .box .box__form form input[type="text"].invalid { border: 1px solid #F8B4B4; background-image: url("../images/invalid-exlamation-circle.svg"); background-position: right center; background-repeat: no-repeat; background-size: 24px 17px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003148}}
+.ng-box-wrapper .box .box__form form .form-item { margin-bottom: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003154}}
+.ng-box-wrapper .box .box__form.connect.is-connected { border-bottom: 0; border-radius: 6px 6px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003160}}
+.ng-box-wrapper .box .box__form.connect.is-connected form input[type="text"] { background-image: url("../images/check-green.svg"); background-position: right center; background-repeat: no-repeat; background-size: 24px 17px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003171}}
+.ng-box-wrapper .box .box__form.disconnect.is-connected { border-radius: 0 0 6px 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003180}}
+.ng-box-wrapper .box .box__form-notices .notice-key-success { color: #0E9F6E; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003183}}
+.ng-box-wrapper .box .box__form-notices .notice-error { color: #E02424; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003186}}
+.ng-box-wrapper .box .box__form-notices .notice-loading { display: flex; align-items: center; justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003190}}
+.ng-box-wrapper .box .box__form-notices .notice-loading img { max-width: 30px; display: inline; margin: 0 24px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003195}}
+.ng-box-wrapper .box .box__form-notices .notice-loading p { display: inline-block; color: #4B5563; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003200}}
+.ng-box-wrapper .box .box__form-notices .notice-syncing { display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003202}}
+.ng-box-wrapper .box .box__form-notices .notice-syncing img { max-width: 38px; display: inline; margin: 0 24px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003207}}
+.ng-box-wrapper .box .box__form-notices .notice-syncing p { display: inline-block; color: #4B5563; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003213}}
+.ng-box-wrapper .box .box__form-notices .notice-complete img { max-width: 30px; float: left; margin: 0 24px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003218}}
+.ng-box-wrapper .box .box__form-notices .notice-complete p { color: #4B5563; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003222}}
+.ng-box-wrapper .box .box__form-notices .notice-api-success { color: #9FA6B2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003225}}
+.ng-box-wrapper .box .box__form-notices .notice-complete { background-color: #F3FAF7; color: #046C4E; padding: 18px; border: 1px solid #BCF0DA; border-radius: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003232}}
+.ng-box-wrapper .box .box__form-notices .notice-complete img { filter: invert(0.4) sepia(0.5) saturate(6) hue-rotate(61.2deg) brightness(0.59); float: left; max-width: 16px; margin: 0 16px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003238}}
+.ng-box-wrapper .box .box__form-notices .notice-complete p { margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003244}}
+.ng-box-wrapper .box .box__links { text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003246}}
+.ng-box-wrapper .box .box__links p, .ng-box-wrapper .box .box__links a { font-size: 14px; color: #6b7280; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003250}}
+.ng-box-wrapper .box .box__links a { color: #3F83F8; text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003253}}
+.ng-box-wrapper .box .box__links a:hover { text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003261}}
+.modal { position: fixed; background-color: rgba(55, 65, 81, 0.6); top: 0; right: 0; bottom: 0; left: 0; z-index: 999; visibility: hidden; opacity: 0; pointer-events: none; transition: all 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003273}}
+.modal:target { visibility: visible; opacity: 1; pointer-events: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003278}}
+.modal .modal__content_wrapper { width: 495px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #ffffff; border-radius: 6px; display: block; clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003289}}
+.modal .modal__content_wrapper .content { padding: 28px; position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003293}}
+.modal .modal__content_wrapper .content .content__icon { width: 30px; height: 90px; display: block; float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003299}}
+.modal .modal__content_wrapper .content .content__text { display: block; float: left; padding: 4px 20px 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003304}}
+.modal .modal__content_wrapper .content .content__text span { display: block; width: 100%; margin-bottom: 20px; font-size: 14px; color: #6b7280; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003310}}
+.modal .modal__content_wrapper .content .content__text span.heading { font-size: 18px; font-weight: 500; color: #161E2E; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003319}}
+.modal .modal__content_wrapper .content__buttons { display: block; clear: both; background: #F9FAFB; text-align: right; padding: 13px 25px 13px 0; border-radius: 0 0 6px 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003327}}
+.modal .modal__content_wrapper .content__buttons a { width: auto; display: inline-block; text-decoration: none; padding: 11px 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003332}}
+.modal .modal__content_wrapper .content__buttons a.disconnecter { margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003339}}
+.modal .modal__close { position: absolute; right: 25px; top: 20px; width: 20px; height: 20px; opacity: 0.3; cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003348}}
+.modal .modal__close:hover { opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003351}}
+.modal .modal__close:before, .modal .modal__close:after { position: absolute; right: 0; content: ' '; height: 20px; width: 3px; background-color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003359}}
+.modal .modal__close:before { transform: rotate(45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003362}}
+.modal .modal__close:after { transform: rotate(-45deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003367}}
+.modal.active { visibility: visible; opacity: 1; z-index: 100000; pointer-events: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003374}}
+.modal.success { background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003376}}
+.modal.success .modal__content_wrapper { width: 395px; bottom: 10%; max-height: 67px; box-shadow: 2px 2px 3px 0px #D2D6DC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003381}}
+.modal.success .modal__content_wrapper .content { padding: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003383}}
+.modal.success .modal__content_wrapper .content .content__icon { height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003387}}
+.modal.success .modal__content_wrapper .content .content__text span { font-size: 14px; font-weight: 500; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomasrothe\/Documents\/Entwicklung\/htdocs\/spod\/wp1\/wp-content\/plugins\/ng_spod_plugin\/admin\/_dev\/ng_spod_plugin-admin\.scss}line{font-family:\00003397}}
+.hidden { display: none !important; }
+
+/*# sourceMappingURL=ng_spod_plugin-admin.css.map */
