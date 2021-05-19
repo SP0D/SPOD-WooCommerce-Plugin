@@ -45,7 +45,7 @@ if (isset($spodData) && isset($spodData->eventType)) {
             break;
 
         case 'shipment_sent':
-            $spod_order_id = $spodData->data->shipment->id;
+            $spod_order_id = $spodData->data->shipment->orderId;
             if (isset($spod_order_id) && $spod_order_id>0) {
                 if (isset($spod_order_id) && $spod_order_id>0) {
                     $infos = '';
